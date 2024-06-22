@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(2, 2, 58);
+  background-size: cover;
+  background-position: center;
+}
+
+.calci-calculator {
+  background-color: rgb(216, 68, 113);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 320px;
+  height: 390px;
+}
+
+.calci-display {
+  background-color: rgb(224, 204, 204);
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: right;
+  margin-bottom: 20px;
+  height: 60px; /* Reduce height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calci-input {
+  font-size: 0.8em;
+  color: black; /* Set input color to black */
+  word-wrap: break-word;
+  max-height: 2.5em;
+  overflow: hidden;
+}
+
+.calci-result {
+  font-size: 1.5em;
+  color: black;
+}
+
+.calci-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  
+}
+
+button {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 15px; /* Reduce height */
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: 0.5px solid palevioletred; /* Button border pink */
+  margin: 0.5px; /* Add some margin to buttons */
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.calci-equals {
+  grid-column: span 2;
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.calci-equals:hover {
+  background-color: #e08e00;
+}
+
+.calci-zero {
+  grid-column: span 2;
+}
