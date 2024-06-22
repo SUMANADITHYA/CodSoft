@@ -1,0 +1,362 @@
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-size: cover;
+  color: white;
+  height: 100vh; /* Full viewport height */
+  background-color: black;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.home-slogan-left {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.home-slogan-left h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-slogan-left h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-slogan-left p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.home-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffa500;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: whitesmoke;
+  transform: scale(1.05);
+}
+
+.home-image-right {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-image-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-about-section {
+  padding: 40px 20px;
+  background-color: black;
+  color: white;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.home-about-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-about-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.home-about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-about-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.home-about-image {
+  max-width: 30%;
+  height: auto;
+}
+
+.home-blog-section {
+  padding: 40px 20px;
+  background-color: black;
+  color: white;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.home-blog-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-blog-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.home-blog-image {
+  max-width: 40%;
+  height: auto;
+}
+
+.home-blog-text {
+  flex: 1;
+}
+
+.home-blog-text p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.home-blog-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffa500;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+.home-blog-button:hover {
+  background-color: skyblue;
+  transform: scale(1.05);
+}
+
+.home-contact-section {
+  padding: 40px 20px;
+  background-color: black;
+  color: white;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.home-contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.home-social-media a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.home-social-media a img:hover {
+  transform: scale(1.1);
+}
+.hidden {
+  opacity: 0;
+}
+
+.show {
+  animation: letterTransform 0.5s forwards;
+}
+
+/* Keyframes for letter transformation */
+@keyframes letterTransform {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Other existing styles */
+
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-size: cover;
+  color: white;
+  height: 100vh; /* Full viewport height */
+  background-color: black;
+}
+
+.home-slogan-left {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.home-slogan-left h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-slogan-left h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-slogan-left p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.home-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffa500;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: white;
+  transform: scale(1.05); 
+}
+
+.home-image-right {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-image-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-about-section,
+.home-blog-section,
+.home-contact-section,
+.home-footer {
+  padding: 40px 20px;
+  background-color: black;
+  color: white;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.home-about-section h2,
+.home-blog-section h2,
+.home-contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-about-section p,
+.home-blog-section p,
+.home-contact-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.home-about-content,
+.home-blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-about-item,
+.home-blog-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.home-about-image,
+.home-blog-image {
+  max-width: 30%;
+  height: auto;
+}
+
+.home-blog-text {
+  flex: 1;
+}
+
+.home-blog-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffa500;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+.home-blog-button:hover {
+  background-color: #e69500;
+  transform: scale(1.05);
+}
+
+.home-contact-section {
+  background-color: black;
+  color: white;
+}
+
+.home-social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.home-social-media a img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.home-social-media a img:hover {
+  transform: scale(1.1);
+
+}
+
+.home-footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-footer p {
+  margin: 5px 0;
+}
